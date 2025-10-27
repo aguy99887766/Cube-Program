@@ -30,6 +30,7 @@ class Cube
             std::cout << "Length: " << length << std::endl;
             std::cout << "Width: " << width << std::endl;
             std::cout << "Height: " << height << std::endl;
+            std::cout << "Color: " << color << std::endl;
         }
 
 
@@ -133,7 +134,7 @@ int main() {
 
             std::cout << std::string(25, '-') << std::endl;
             user_object->get_information();
-            std::cout << "VOLUME: " << user_object->volume() << std::endl;
+            std::cout << "Volume: " << user_object->volume() << std::endl;
             std::cout << std::string(25, '-') << std::endl;
 
         }
